@@ -1,6 +1,5 @@
 nombre = int(input("Entrez un nombre entier : "))
 
-# Vérifier si le nombre est positif, négatif ou zéro
 if nombre > 0:
     signe = "positif"
 elif nombre < 0:
@@ -8,7 +7,6 @@ elif nombre < 0:
 else:
     signe = "zéro (et il est pair)"
 
-# Vérifier si le nombre est pair ou impair
 if nombre != 0:
     if nombre % 2 == 0:
         parite = "pair"
@@ -17,7 +15,6 @@ if nombre != 0:
 else:
     parite = ""
 
-# Afficher le résultat
 if nombre == 0:
     print(f"Le nombre est {signe}")
 else:

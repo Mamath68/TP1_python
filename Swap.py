@@ -5,7 +5,6 @@ c = input("Entrez la troisième valeur : ")
 print("Les valeurs entrées sont : a = " + a + ", b = " + b + " et c = " + c)
 print("Permutation: a ==> b, b ==> c, c ==> a")
 
-# Utiliser une variable temporaire pour permuter les valeurs
 temp = a
 a = b
 b = c
