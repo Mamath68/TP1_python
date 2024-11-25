@@ -1,6 +1,6 @@
 # Déclaration des constantes et variables de base
 BASE = 4
-fromage = 800.0  # en grammes
+fromage = 800  # en grammes
 eau = 2  # en décilitres
 ail = 2  # en gousses
 pain = 400  # en grammes
@@ -22,7 +22,7 @@ nouveau_pain = pain * nbConvives / BASE
 
 # Affichage de la recette adaptée
 print(f"Pour faire une fondue fribourgeoise pour {nbConvives} personnes, il vous faut :")
-print(f"- {nouveau_fromage} gr de fromage")
-print(f"- {nouvelle_eau} dl d'eau")
-print(f"- {nouvel_ail} gousse(s) d'ail")
-print(f"- {nouveau_pain} gr de pain")
+print(f"- {int(nouveau_fromage)} gr de fromage")
+print(f"- {int(nouvelle_eau)} dl d'eau")
+print(f"- {int(nouvel_ail)} gousse(s) d'ail")
+print(f"- {int(nouveau_pain)} gr de pain")
